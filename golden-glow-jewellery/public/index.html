@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Glow Jewellery</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="#home">✨ Golden Glow</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#products">Jewellery</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">TIMELESS DESIGN · EVERYDAY ELEGANCE</p>
+        <h1>Elegant Jewellery</h1>
+        <p>Beauty that shines forever</p>
+        <a href="#products" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <p class="eyebrow">THE COLLECTION</p>
+      <h2>Our Jewellery Collection</h2>
+      <div class="product-container">
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=700&q=80" alt="Gold necklace" loading="lazy">
+          <h3>Gold Necklace</h3><p class="price">₹45,000</p><a href="#contact" class="btn">Enquire Now</a>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=700&q=80" alt="Diamond ring" loading="lazy">
+          <h3>Diamond Ring</h3><p class="price">₹75,000</p><a href="#contact" class="btn">Enquire Now</a>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=700&q=80" alt="Gold earrings" loading="lazy">
+          <h3>Gold Earrings</h3><p class="price">₹25,000</p><a href="#contact" class="btn">Enquire Now</a>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=700&q=80" alt="Gold bracelet" loading="lazy">
+          <h3>Gold Bracelet</h3><p class="price">₹35,000</p><a href="#contact" class="btn">Enquire Now</a>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=700&q=80" alt="Designer necklace" loading="lazy">
+          <h3>Designer Necklace</h3><p class="price">₹55,000</p><a href="#contact" class="btn">Enquire Now</a>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=700&q=80" alt="Diamond ring collection" loading="lazy">
+          <h3>Classic Diamond Ring</h3><p class="price">₹75,000</p><a href="#contact" class="btn">Enquire Now</a>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=700&q=80" alt="Designer earrings" loading="lazy">
+          <h3>Designer Earrings</h3><p class="price">₹15,000</p><a href="#contact" class="btn">Enquire Now</a>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=700&q=80" alt="Traditional jewellery" loading="lazy">
+          <h3>Traditional Jewellery</h3><p class="price">₹28,000</p><a href="#contact" class="btn">Enquire Now</a>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=700&q=80" alt="Elegant jewellery" loading="lazy">
+          <h3>Elegant Gold Jewellery</h3><p class="price">₹40,000</p><a href="#contact" class="btn">Enquire Now</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <p class="eyebrow">OUR STORY</p>
+      <h2>About Golden Glow</h2>
+      <p>Golden Glow Jewellery offers beautifully designed gold, diamond and traditional jewellery. Our collection combines modern designs with timeless elegance to make every occasion special.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow">WE'RE HERE TO HELP</p>
+      <h2>Contact Us</h2>
+      <p class="contact-intro">Have a question about a piece? Send us a message and our team will get back to you.</p>
+      <form id="contactForm">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" aria-label="Your Name" required maxlength="100">
+          <input type="email" name="email" placeholder="Your Email" aria-label="Your Email" required maxlength="254">
+        </div>
+        <input type="tel" name="phone" placeholder="Phone Number (optional)" aria-label="Phone Number" maxlength="30">
+        <textarea name="message" placeholder="Your Message" aria-label="Your Message" required maxlength="3000"></textarea>
+        <button type="submit" id="submitBtn">Send Message</button>
+        <p id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer><p>© 2026 Golden Glow Jewellery | All Rights Reserved</p></footer>
+  <script src="/script.js"></script>
+</body>
+</html>
